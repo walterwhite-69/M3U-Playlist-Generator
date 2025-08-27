@@ -73,7 +73,7 @@
 **Input:**
 ```
 Channel Names: Acorn TV, FIFA TV, ESPN
-Logo URLs: https://example.com/asia.png, https://example.com/jamuna.png, https://example.com/ch24.png
+Logo URLs: https://example.com/asia.png, https://example.com/image2.png, https://example.com/ch24.png
 Channel URLs: https://stream1.m3u8, https://stream2.m3u8, https://stream3.m3u8
 Group Names: News, News, Entertainment
 ```
