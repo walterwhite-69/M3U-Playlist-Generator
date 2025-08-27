@@ -55,10 +55,10 @@
 ## 🎮 How to Use
 
 ### Basic Workflow
-1. **Enter Channel Names**: `Asia TV, Jamuna TV, Channel 24`
+1. **Enter Channel Names**: `Acorn TV, FIFA TV, ESPN`
 2. **Add Logo URLs**: `https://logo1.png, https://logo2.png, https://logo3.png`
 3. **Provide Stream URLs**: `https://stream1.m3u8, https://stream2.m3u8, https://stream3.m3u8`
-4. **Set Group Name** (Optional): `Bangladeshi Channels`
+4. **Set Group Name** (Optional): `Sports Channels`
 5. **Generate**: Watch the real-time M3U preview
 6. **Download/Copy**: Get your playlist file
 
@@ -72,7 +72,7 @@
 
 **Input:**
 ```
-Channel Names: Asia TV, Jamuna TV, Channel 24
+Channel Names: Acorn TV, FIFA TV, ESPN
 Logo URLs: https://example.com/asia.png, https://example.com/jamuna.png, https://example.com/ch24.png
 Channel URLs: https://stream1.m3u8, https://stream2.m3u8, https://stream3.m3u8
 Group Names: News, News, Entertainment
@@ -80,13 +80,13 @@ Group Names: News, News, Entertainment
 
 **Generated Output:**
 ```
-#EXTINF:-1 tvg-logo="https://example.com/asia.png" group-title="News", Asia TV
+#EXTINF:-1 tvg-logo="https://example.com/asia.png" group-title="News", Acorn TV
 https://stream1.m3u8
 
-#EXTINF:-1 tvg-logo="https://example.com/jamuna.png" group-title="News", Jamuna TV
+#EXTINF:-1 tvg-logo="https://example.com/jamuna.png" group-title="News", FIFA TV
 https://stream2.m3u8
 
-#EXTINF:-1 tvg-logo="https://example.com/ch24.png" group-title="Entertainment", Channel 24
+#EXTINF:-1 tvg-logo="https://example.com/ch24.png" group-title="Entertainment", ESPN
 https://stream3.m3u8
 ```
 
@@ -226,6 +226,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you found it helpful! ⭐**
 
-[Report Bug](../../issues) | [Request Feature](../../issues) | [Documentation](../../wiki)
+
 
 </div>
